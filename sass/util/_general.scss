@@ -1,0 +1,90 @@
+//   General styles
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  background: var(--hero-button-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--header-menu-color);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+figure,
+p {
+  margin: 0;
+}
+
+.imgblock {
+  display: block;
+}
+
+//  container of page
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+// Sections
+
+.sectoin-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--header-menu-color);
+  text-align: center;
+}
+
+// -----------------
+.about-project {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

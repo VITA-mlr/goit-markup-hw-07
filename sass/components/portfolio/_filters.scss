@@ -1,0 +1,29 @@
+// Filters
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.filters-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .button {
+    color: var(--header-menu-color);
+    background-color: var(--team-color);
+  }
+
+  .current.button {
+    color: var(--hero-button-color);
+    background-color: var(--menu-active-color);
+  }
+}

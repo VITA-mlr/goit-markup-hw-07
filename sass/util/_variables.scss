@@ -1,0 +1,19 @@
+//  colors
+
+:root {
+  --logo-color: #000000;
+  --text-color: #757575;
+  --header-menu-color: #212121;
+  --menu-active-color: #2196f3;
+  --hero-button-color: #ffffff;
+  --team-color: #f5f4fa;
+
+  --footer-backgraund: #2f303a;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --developer-color: rgba(255, 255, 255, 0.4);
+}
+
+//  transition
+
+$tima: 250ms;
+$cubic: cubic-bezier(0.4, 0, 0.2, 1);

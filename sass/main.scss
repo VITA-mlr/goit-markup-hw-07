@@ -1,0 +1,18 @@
+//   styles for webstudio
+@import "./util/variables";
+@import "./base/normalize";
+@import "./util/general";
+@import "./components/page-header";
+@import "./components/buttones";
+@import "./components/herro-page";
+@import "./components/modal";
+@import "./components/features";
+@import "./components/our-works";
+@import "./util/messengers";
+@import "./components/our-team";
+@import "./components/customers";
+@import "./components/page-footer";
+
+//   styles for portfolio
+@import "./components/portfolio/filters";
+@import "./components/portfolio/cards";

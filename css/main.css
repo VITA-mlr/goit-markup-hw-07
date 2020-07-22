@@ -420,6 +420,23 @@ p {
   text-align: center;
 }
 
+.about-project {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   margin-top: 24px;
   margin-bottom: 25px;
@@ -1194,6 +1211,10 @@ textarea:not(:placeholder-shown) ~ label {
   letter-spacing: 0.03em;
   color: var(--developer-color);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.portfolio.container {
+  padding-bottom: 94px;
 }
 
 .filters {

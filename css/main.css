@@ -488,6 +488,10 @@ p {
 }
 
 .nav-link {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, fill;
@@ -547,7 +551,9 @@ p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-position: 0 center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .icon {
@@ -1147,6 +1153,7 @@ textarea:not(:placeholder-shown) ~ label {
 
 .form input:focus {
   outline: none;
+  color: white;
 }
 
 .form input::-webkit-input-placeholder {

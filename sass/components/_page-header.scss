@@ -47,7 +47,7 @@
 }
 
 .nav-link {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -56,7 +56,6 @@
 
   .nav-list-site & {
     display: block;
-    //align-items: center;
     padding-top: 33px;
     padding-bottom: 31px;
   }
@@ -90,7 +89,6 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -101,16 +99,6 @@
     margin-left: 30px;
   }
 }
-
-.icon-address {
-  display: inline-flex;
-  //background-position: 0 center;
-  align-items: center;
-}
-
-// .nav-link {
-//   fill: var(--text-color);
-// }
 
 .icon {
   margin-right: 10px;
